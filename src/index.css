@@ -1,0 +1,39 @@
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-link:focus,
+.skip-link:active {
+  left: 12px;
+  top: 12px;
+  width: auto;
+  height: auto;
+  padding: 8px 12px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  color: #333;
+  z-index: 2000;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+
+.video-card a:focus,
+.video-card a:focus-visible {
+  box-shadow: 0 0 0 3px rgba(13,110,253,0.15);
+  outline: none;
+}
+
+
+button:focus,
+button:focus-visible,
+input:focus,
+select:focus {
+  outline: 3px solid rgba(13,110,253,0.15);
+  outline-offset: 2px;
+}
